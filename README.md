@@ -1,7 +1,7 @@
 # gramway-DI-Framework
 어노테이션 기반 MVC DI 프레임워크
 
-java-was merge된  해당 repository로 이전
+https://github.com/durin93/java-was/tree/gramwayFramework2 를 해당 repository로 이전
 
 v1
 - @controller 어노테이션을 붙이면 객체가 컨트롤러로 인식이 되도록 하였습니다.
