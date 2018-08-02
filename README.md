@@ -11,7 +11,7 @@ v1
 - 컨트롤러 내의 메서드의 파라미터에 @RequestParam 어노테이션이 붙은 경우,
 스프링의 기능과 비슷하게 동작하도록 구현하였습니다.
 ex)
-public String (@RqeustParam("id") String id){}
+public String (@RqeustParam String id){}
 내부적으로 id = request.getParameter("id") 와 같이 동작합니다.
 
 - 컨트롤러 내의 메서드의 파라미터가 자바빈 규약에 따르는 클래스인 경우,
